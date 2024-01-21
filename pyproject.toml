@@ -1,0 +1,29 @@
+[project]
+name = "rec_itu_r_m_1371"
+version = "0.1.0"
+description = "A Python package that implements elements of Recommendation ITU-R M.1371: Technical characteristics for an automatic identification system using time division multiple access in the VHF maritime mobile frequency band."
+authors = [
+    {name = "Jan Safar", email = "jan.safar@gla-rad.org"},
+]
+dependencies = [
+    "bitstring>=4.1.4",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "Apache-2.0"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.dev-dependencies]
+spyder = [
+    "spyder-kernels==2.5.*",
+]
+testing = [
+    "pytest>=7.4.4",
+]
