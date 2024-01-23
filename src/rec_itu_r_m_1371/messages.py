@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-AIS Messages Module
+AIS Messages Module.
 
 This module includes classes for representing AIS messages and functions for
 text character encoding and decoding.
 
-The message definitions and algorithms used herein are compliand with Rec.
+The message definitions and algorithms used herein are compliant with Rec.
 ITU-R M.1371-5, Annex 8.
 
 Created on Mon Dec  4 12:29:14 2017

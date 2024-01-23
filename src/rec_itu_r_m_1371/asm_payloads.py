@@ -1,8 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Classes to represent the Binary Data portion (the 'payload') of ASM messages.
+ASM Payloads Module.
 
-Payloads can be embedded either in AIS ASM or VDES-ASM messages.
+This module contains classes for representing the "payload" (the Binary Data
+portion) of ASM messages.
+
+These payloads can be embedded either in AIS ASM or VDES-ASM messages.
 
 Created on Thu Dec  2 14:19:44 2021
 

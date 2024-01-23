@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Test Cases for the messages.py Module.
+Test Messages Module.
+
+This module contains test cases for the messages.py Module.
 
 Created on Fri Jan 19 17:03:28 2024
 
