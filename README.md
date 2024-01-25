@@ -28,7 +28,7 @@ It has been developed using Python v.3.11.1.
 
 ## Code Usage
 
-The main modules of the Rec. ITU-R M.1371 package are located under `./src/rec_itu_r_m_1371/`. 
+The main modules of the Rec. ITU-R M.1371 package are located under `./src/rec_itu_r_m_1371/`. The code is structured as outlined below.
 
 For examples of usage, see the source code in this repository and the repositories linked under 'Related Projects'.
 
@@ -77,7 +77,7 @@ This project is licensed under the Apache 2.0 License - see the [LICENSE](./LICE
 
 Email: Jan.Safar@gla-rad.org
 
-Issue Tracker: [GitHub Issues](https://github.com/jan-safar/py_vdes1000/issues)
+Issue Tracker: [GitHub Issues](https://github.com/jan-safar/py_rec_itu_r_m_1371/issues)
 
 ## Related Projects
 
