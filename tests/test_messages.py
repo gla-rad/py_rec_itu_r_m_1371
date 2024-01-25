@@ -104,7 +104,7 @@ def test_ais_message21():
     assigned_mode_fl=0
     aton_name_extension=""
 
-    ais_mg_bs = BitStream(
+    ais_msg_bs = BitStream(
         """0x54ec989a87c50274e9c0b12928a826400a879c00100c44a03b6af0001010620780
         04""")
 
@@ -139,7 +139,7 @@ def test_ais_message21():
         vaton_fl, assigned_mode_fl)
 
     # Create a message 21 from a bitstream
-    ais_msg_21_from_bs = AISMessage21.from_bitstream(ais_mg_bs)
+    ais_msg_21_from_bs = AISMessage21.from_bitstream(ais_msg_bs)
 
     #### Result Checks
     assert ais_msg_21.source_id == source_id
@@ -158,7 +158,7 @@ def test_ais_message21():
     assert ais_msg_21.assigned_mode_fl == assigned_mode_fl
     assert ais_msg_21.aton_name_extension == aton_name_extension
 
-    assert ais_msg_21.bitstream == ais_mg_bs
+    assert ais_msg_21.bitstream == ais_msg_bs
 
     assert str(ais_msg_21) == ais_msg_21_str
 
